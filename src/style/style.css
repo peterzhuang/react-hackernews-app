@@ -1,0 +1,18 @@
+.story-title {
+    flex-basis: 75%;
+}
+
+@media only screen and (max-width: 40em) {
+    .story-title {
+        flex-basis: 100%;
+    }
+    .story-block {
+        flex-direction: column;
+    }
+
+    .showCommentButton {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
